@@ -1269,13 +1269,17 @@ Data in only one dimension is relatively tightly packed. Adding a dimension stre
 
 **What is the ranking problem? Which models can you use to solve them? ‍⭐️**
 
-Answer here
+Problem that occurs while ranking the data based on subjective parameters, subjective parameters means parameters that are non-quantitaive (can't be measured on scale) eg., user preferences on fav laptop brand based on his/her browsing history. Models that can be used to solve ranking problem eg., Learning to Rank (LTR) Models, Matrix Factorization Models,  Plackett-Luce Model etc.
 
 <br/>
 
 **What are good unsupervised baselines for text information retrieval? ‍⭐️**
 
-Answer here
+1) TF-IDF: Weighs terms by frequency and rarity across documents to assess importance.
+2) BM25: Probabilistic model improving TF-IDF, optimizing term weighting.
+3) LSA: Reduces dimensionality to uncover latent relationships in text.
+4) LDA: Discovers topics in documents using a generative model.
+5) Word2Vec/Doc2Vec: Embeds words/documents into vectors capturing semantic meaning.
 
 <br/>
 
