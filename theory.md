@@ -1322,7 +1322,14 @@ Answer here
 
 **How can we use clicks data as the training data for ranking algorithms? 🚀**
 
-Answer here
+Using clicks data for ranking algorithms involves:
+
+1) Collect Data: Gather user queries and clicked items.
+2) Extract Features: Include query details and item attributes.
+3) Label Data: Compare clicked vs. non-clicked items.
+4) Train Model: Use supervised learning (e.g., gradient boosting).
+5) Evaluate: Measure with NDCG or MAP.
+6) Refine: Adjust features and model for better results.
 
 <br/>
 
@@ -1334,7 +1341,14 @@ Answer here
 
 **How do you do an online evaluation of a new ranking algorithm? ‍⭐️**
 
-Answer here
+To perform an online evaluation of a new ranking algorithm, follow these steps:
+
+1) Define Evaluation Metrics: Choose metrics like NDCG, MAP, or precision at k to measure algorithm effectiveness.
+2) Set Up Experiment: Deploy the new algorithm alongside existing ones in a live environment.
+3) Collect Data: Gather user interactions and feedback to assess ranking performance.
+4) Monitor Results: Continuously analyze metrics to compare the new algorithm against benchmarks.
+5) Iterate and Refine: Based on results, iterate on the algorithm, adjusting parameters for improvement.
+6) Statistical Significance: Ensure results are statistically significant to validate changes effectively.
 
 <br/>
 
